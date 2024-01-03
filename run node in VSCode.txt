@@ -1,0 +1,20 @@
+run docker:
+	docker-compose ps 
+	docker-compose up 
+run db:
+	 npm run db     
+install yarn:
+	yarn i
+install node:
+	nodenv i
+install nodejs:
+	brew install nodenv
+	npm i
+	npm init
+	npm start
+
+	yarn
+	yarn start
+
+npx ts-node ./bin/www -- exects-node
+npm test unit/validator/organizer/event_info_post.test.ts
